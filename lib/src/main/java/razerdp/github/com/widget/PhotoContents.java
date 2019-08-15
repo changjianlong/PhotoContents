@@ -3,8 +3,9 @@ package razerdp.github.com.widget;
 import android.content.Context;
 import android.database.Observable;
 import android.graphics.Rect;
-import android.support.annotation.NonNull;
-import android.support.v4.view.ViewCompat;
+
+import androidx.annotation.NonNull;
+import androidx.core.view.ViewCompat;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;

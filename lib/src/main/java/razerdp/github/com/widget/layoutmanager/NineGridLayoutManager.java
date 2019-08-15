@@ -1,8 +1,9 @@
 package razerdp.github.com.widget.layoutmanager;
 
 import android.graphics.Rect;
-import android.support.annotation.NonNull;
 import android.view.View;
+
+import androidx.annotation.NonNull;
 
 import razerdp.github.com.widget.PhotoContents;
 import razerdp.github.com.widget.util.SimplePool;

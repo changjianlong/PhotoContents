@@ -2,14 +2,16 @@ package razerdp.github.com.demo;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.jcodecraeer.xrecyclerview.XRecyclerView;
 
@@ -40,7 +42,7 @@ public class DemoActivity extends AppCompatActivity implements XRecyclerView.Loa
     private void initView() {
         xrecyclerview = findViewById(R.id.xrecyclerview);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+        layoutManager.setOrientation(RecyclerView.VERTICAL);
         xrecyclerview.setLayoutManager(layoutManager);
         xrecyclerview.setLoadingListener(this);
         xrecyclerview.setItemAnimator(null);

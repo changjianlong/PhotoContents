@@ -1,9 +1,9 @@
 package razerdp.github.com.demo.utils.rx;
 
 
-import android.support.annotation.NonNull;
-import android.widget.EditText;
 
+
+import androidx.annotation.NonNull;
 
 import java.util.concurrent.TimeUnit;
 
